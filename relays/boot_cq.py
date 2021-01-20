@@ -14,12 +14,12 @@ webrepl.start()
 #
 # Set up WLAN
 #
-ssid = 'neverNeverLand'
-password = 'p3terp@n'
-ip = '172.16.1.20'
+ssid = 'conquest_oh'
+password = '!c0nqu#st2252'
+ip = '192.168.50.2'
 net_mask = '255.255.255.0'
-gateway = '172.16.1.1'
-dns = '172.16.1.1'
+gateway = '192.168.50.1'
+dns = '192.168.50.1'
 
 def do_connect():
     sta_if = network.WLAN(network.STA_IF)
